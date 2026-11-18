@@ -1,55 +1,71 @@
-# 📄 Assignment Title
-
-> Replace this file's contents for each assignment. Delete any sections you don't need.
+# 📄 Cincinnati Comic Expo: Tables and Forms
 
 ## 🎯 Overview
 
-<!-- One short paragraph: what students are building and why. -->
+The Cincinnati Comic Expo site has two pages: **Tickets & Hours** (`index.html`) and **Cosplay Contest**
+(`cosplay.html`). The header, footer, colors and fonts are already done in `css/base.css`. Each page is missing its main
+content. In **Part 1** you'll write the HTML: two data tables on the tickets page and a contest sign-up form on the
+cosplay page. In **Part 2** you'll style them in `css/tables.css` and `css/forms.css` using the variables from
+`base.css`.
 
-## 📋 Requirements
-
-<!-- The specific, checkable things the work must do. -->
-
-- [ ] Requirement one
-- [ ] Requirement two
-- [ ] Requirement three
-
-## 🖼️ Example Output
-
-<!-- Add a screenshot or mockup of the finished result, then describe anything the -->
-<!-- image doesn't make obvious (hover states, responsive behavior, interactions).  -->
-
-![Example output](../images/example.png)
-
-## 📂 Starter Files
-
-<!-- What's already in the repo and what students are expected to create. -->
-
-| File / Folder | Purpose |
-| --- | --- |
-| `index.html` | Main page |
-| `css/` | Stylesheets |
-| `images/` | Image assets |
+The HTML comments in `index.html` and `cosplay.html` list the exact content for every table and form field. Build your
+markup where each comment is, then delete the comment.
 
 ## 🧮 Grading
 
-| Criteria | Points |
+| Criteria | Full credit | Partial credit | No credit | Points |
+| --- | --- | --- | --- | --- |
+| **Table markup** | Both tables have a caption, `thead` and `tbody`, `th` with the correct `scope` for column and row headers, the `.table-scroll` wrapper, and all data entered correctly | A caption, `scope` or wrapper is missing, or a few values are wrong | No tables, or the data is not in a `table` | 4 |
+| **Form markup** | One form with four fieldsets and legends, the correct input types, a select, a textarea, `.field` wrappers, matching radio `name`s and a submit button | A fieldset, input type or wrapper is missing or wrong | No form | 3 |
+| **Labels and attributes** | Every field has a `label` connected with `for` and `id`, and the `required`, `autocomplete`, `placeholder`, `min`, `max`, `value`, `rows` and `checked` attributes are in place | A few labels aren't connected, or some attributes are missing | Most fields have no label | 2 |
+| **Table styles** | Full-width collapsed tables with a dark header row, padded cells, row lines, a styled caption and sideways scrolling on small screens | Some styles are missing or don't match the example | Tables are unstyled | 2 |
+| **Form styles** | Bordered fieldsets, labels above fields, consistent field sizing, red `:user-invalid` borders and a styled button | Some styles are missing, or invalid fields aren't highlighted | Form is unstyled | 2 |
+| **Variables and code quality** | Colors come only from the `base.css` variables, formatting matches `base.css`, the HTML validates, no extra classes, clear commit messages | A few hard-coded colors, validator errors, formatting issues or vague commits | Messy code, inline styles or edits to `base.css` | 2 |
+| **Total** | | | | **15** |
+
+## 🖼️ Example Output
+
+These are the finished pages at desktop width. Your spacing can be slightly different, but each page should look very
+close to these.
+
+| Tickets & Hours (`index.html`) | Cosplay Contest (`cosplay.html`) |
 | --- | --- |
-|  |  |
-|  |  |
-|  |  |
-| **Total** |  |
+| ![The finished Tickets and Hours page: a red Cincinnati Comic Expo heading, then the Admission and Show Floor Hours tables, each with a bold caption, a navy header row with white text and a thin light-blue line under each row](images/final-tickets.png) | ![The finished Cosplay Contest page: a red Cosplay Contest Sign-Up heading, then four blue-bordered fieldsets (About You, Your Costume, Skill Level, On Stage) with labels above the inputs, and a blue Sign Me Up button](images/final-cosplay.png) |
+
+Things the screenshots don't show:
+
+- On a phone, wide tables scroll sideways inside their `.table-scroll` box. The page itself does not.
+- A required field gets a red border only **after** the user types in it and leaves it, or tries to submit. It's not
+  red when the page first loads.
+- Clicking a label puts the cursor in its field, or checks its checkbox or radio button.
+
+## 📂 Starter Files
+
+| File / Folder | Purpose | What you do |
+| --- | --- | --- |
+| `index.html` | Tickets & Hours page | Build the two tables (Part 1) |
+| `cosplay.html` | Cosplay Contest page | Build the sign-up form (Part 1) |
+| `css/base.css` | Colors, fonts, header, footer and layout | Nothing. Leave it alone and use its variables. |
+| `css/tables.css` | Table styles, linked from `index.html` | Style the tables (Part 2) |
+| `css/forms.css` | Form styles, linked from `cosplay.html` | Style the form (Part 2) |
+| `images/logo.webp` | Expo logo | Nothing |
 
 ## 📚 Resources
 
-<!-- Links to readings, slides, documentation, or examples. -->
-
--
--
+- [MDN: HTML table basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics)
+- [MDN: HTML table accessibility](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility)
+  (`caption`, `thead`, `tbody` and `scope`)
+- [MDN: Styling tables](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Tables)
+- [MDN: Your first form](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form)
+- [MDN: How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form)
+- [MDN: The `<input>` element and its types](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input)
+- [MDN: `:user-invalid`](https://developer.mozilla.org/en-US/docs/Web/CSS/:user-invalid)
+- [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
 
 ## 🆘 Getting Help
 
-<!-- Office hours, discussion board, tutoring center, etc. -->
+Ask during class or office hours, or post on the Canvas discussion board. If a label won't connect to its field, check
+that the label's `for` matches the input's `id` exactly. If a table looks lopsided, count the cells in each row.
 
 ---
 

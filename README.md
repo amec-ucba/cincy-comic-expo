@@ -1,18 +1,14 @@
-# 💻 Assignment Boilerplate
+# 🦸 Cincinnati Comic Expo: Tables and Forms
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration,
-and a pull request template so every assignment works the same way.
+Finish a two-page site for the Cincinnati Comic Expo. Build the ticket and hours tables and the cosplay contest sign-up
+form in HTML, then style them with CSS using the variables in `css/base.css`.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`
 > folders are setup files that keep assignments consistent. Leave them alone.
 
-## 📋 Assignment Requirements
-
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](.github/ASSIGNMENT.md)**
-
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit.
 
 ## ✅ At a Glance
 
