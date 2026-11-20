@@ -4,9 +4,9 @@
 
 The Cincinnati Comic Expo site has two pages: **Tickets & Hours** (`index.html`) and **Cosplay Contest**
 (`cosplay.html`). The header, footer, colors and fonts are already done in `css/base.css`. Each page is missing its main
-content. In **Part 1** you'll write the HTML: two data tables on the tickets page and a contest sign-up form on the
-cosplay page. In **Part 2** you'll style them in `css/tables.css` and `css/forms.css` using the variables from
-`base.css`.
+content. In **Part 1** you'll build the two data tables on the tickets page and style them in `css/tables.css`. In
+**Part 2** you'll build the contest sign-up form on the cosplay page and style it in `css/forms.css`. Both parts use the
+color variables from `base.css`.
 
 The HTML comments in `index.html` and `cosplay.html` list the exact content for every table and form field. Build your
 markup where each comment is, then delete the comment.
@@ -16,9 +16,9 @@ markup where each comment is, then delete the comment.
 | Criteria | Full credit | Partial credit | No credit | Points |
 | --- | --- | --- | --- | --- |
 | **Table markup** | Both tables have a caption, `thead` and `tbody`, `th` with the correct `scope` for column and row headers, the `.table-scroll` wrapper, and all data entered correctly | A caption, `scope` or wrapper is missing, or a few values are wrong | No tables, or the data is not in a `table` | 4 |
+| **Table styles** | Full-width collapsed tables with a dark header row, padded cells, row lines, a styled caption and sideways scrolling on small screens | Some styles are missing or don't match the example | Tables are unstyled | 2 |
 | **Form markup** | One form with four fieldsets and legends, the correct input types, a select, a textarea, `.field` wrappers, matching radio `name`s and a submit button | A fieldset, input type or wrapper is missing or wrong | No form | 3 |
 | **Labels and attributes** | Every field has a `label` connected with `for` and `id`, and the `required`, `autocomplete`, `placeholder`, `min`, `max`, `value`, `rows` and `checked` attributes are in place | A few labels aren't connected, or some attributes are missing | Most fields have no label | 2 |
-| **Table styles** | Full-width collapsed tables with a dark header row, padded cells, row lines, a styled caption and sideways scrolling on small screens | Some styles are missing or don't match the example | Tables are unstyled | 2 |
 | **Form styles** | Bordered fieldsets, labels above fields, consistent field sizing, red `:user-invalid` borders and a styled button | Some styles are missing, or invalid fields aren't highlighted | Form is unstyled | 2 |
 | **Variables and code quality** | Colors come only from the `base.css` variables, formatting matches `base.css`, the HTML validates, no extra classes, clear commit messages | A few hard-coded colors, validator errors, formatting issues or vague commits | Messy code, inline styles or edits to `base.css` | 2 |
 | **Total** | | | | **15** |
@@ -44,10 +44,10 @@ Things the screenshots don't show:
 | File / Folder | Purpose | What you do |
 | --- | --- | --- |
 | `index.html` | Tickets & Hours page | Build the two tables (Part 1) |
-| `cosplay.html` | Cosplay Contest page | Build the sign-up form (Part 1) |
-| `css/base.css` | Colors, fonts, header, footer and layout | Nothing. Leave it alone and use its variables. |
-| `css/tables.css` | Table styles, linked from `index.html` | Style the tables (Part 2) |
+| `css/tables.css` | Table styles, linked from `index.html` | Style the tables (Part 1) |
+| `cosplay.html` | Cosplay Contest page | Build the sign-up form (Part 2) |
 | `css/forms.css` | Form styles, linked from `cosplay.html` | Style the form (Part 2) |
+| `css/base.css` | Colors, fonts, header, footer and layout | Nothing. Leave it alone and use its variables. |
 | `images/logo.webp` | Expo logo | Nothing |
 
 ## 📚 Resources
