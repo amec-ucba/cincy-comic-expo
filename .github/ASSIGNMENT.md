@@ -72,13 +72,13 @@ Things the screenshots don't show:
 
 | Criteria | Full credit | Partial credit | No credit | Points |
 | --- | --- | --- | --- | --- |
-| **Table markup** | Both tables have a caption, `thead` and `tbody`, `th` with the correct `scope` for column and row headers, the `.table-scroll` wrapper, and all data entered correctly | A caption, `scope` or wrapper is missing, or a few values are wrong | No tables, or the data is not in a `table` | 4 |
-| **Table styles** | Full-width collapsed tables with a dark header row, padded cells, row lines, a styled caption and sideways scrolling on small screens | Some styles are missing or don't match the example | Tables are unstyled | 2 |
-| **Form markup** | One form with four fieldsets and legends, the correct input types, a select, a textarea, `.field` wrappers, matching radio `name`s and a submit button | A fieldset, input type or wrapper is missing or wrong | No form | 3 |
+| **Table markup** | Both tables have a caption, `thead` and `tbody`, `th` with the correct `scope` for column and row headers, the `.table-scroll` wrapper, and all data entered correctly | A caption, `scope` or wrapper is missing, or a few values are wrong | No tables, or the data is not in a `table` | 5 |
+| **Table styles** | Full-width collapsed tables with a dark header row, padded cells, row lines, a styled caption and sideways scrolling on small screens | Some styles are missing or don't match the example | Tables are unstyled | 3 |
+| **Form markup** | One form with four fieldsets and legends, the correct input types, a select, a textarea, `.field` wrappers, matching radio `name`s and a submit button | A fieldset, input type or wrapper is missing or wrong | No form | 4 |
 | **Labels and attributes** | Every field has a `label` connected with `for` and `id`, and the `required`, `autocomplete`, `placeholder`, `min`, `max`, `value`, `rows` and `checked` attributes are in place | A few labels aren't connected, or some attributes are missing | Most fields have no label | 2 |
-| **Form styles** | Bordered fieldsets, labels above fields, consistent field sizing, red `:user-invalid` borders and a styled button | Some styles are missing, or invalid fields aren't highlighted | Form is unstyled | 2 |
+| **Form styles** | Bordered fieldsets, labels above fields, consistent field sizing, red `:user-invalid` borders and a styled button | Some styles are missing, or invalid fields aren't highlighted | Form is unstyled | 3 |
 | **Variables and code quality** | Colors come only from the `base.css` variables, formatting matches `base.css`, the HTML validates, no extra classes, clear commit messages | A few hard-coded colors, validator errors, formatting issues or vague commits | Messy code, inline styles or edits to `base.css` | 2 |
-| **Total** | | | | **15** |
+| **Total** | | | | **19** |
 
 ## 📚 Resources
 
